@@ -9,26 +9,31 @@ html {
   font-size: 62.5%; }
 
 body {
-  background-color: #ffe7c5;
+  background-color: #fff;
   box-sizing: border-box; }
 
 section {
-  padding-top: 8rem; }
+  padding-top: 2rem; }
   section:last-of-type {
-    padding-bottom: 8rem; }
+    padding-bottom: 2rem; }
 
 .container {
-  background-color: #fff;
-  border: 0.2rem solid #e78800;
-  border-radius: 1rem;
   margin: 0 auto;
   padding: 5rem;
   width: 84rem; }
 
+hr {
+  border: none;
+  border-top: 0.1rem solid #e78800;
+  margin-bottom: 3rem; }
+
+p {
+  margin-bottom: 2rem; }
+
 body {
   color: #333;
   font-family: neue-haas-unica, sans-serif;
-  font-size: 1.8rem; }
+  font-size: 2.4rem; }
 
 h1 {
   font-family: brandon-grotesque, sans-serif;
@@ -45,11 +50,11 @@ h2 {
   margin-top: -1rem; }
 
 h3 {
-  font-family: adobe-caslon-pro, serif;
-  font-size: 5.7rem;
-  font-style: italic;
+  font-family: brandon-grotesque, sans-serif;
+  font-size: 4.3rem;
   font-weight: 700;
-  margin-top: -2rem; }
+  margin-top: -2rem;
+  text-transform: uppercase; }
 
 .text-shadow-orange {
   text-shadow: 0.8rem 0.8rem #e78800, 0.7rem 0.7rem #e78800, 0.6rem 0.6rem #e78800, 0.5rem 0.5rem #e78800, 0.4rem 0.4rem #e78800, 0.3rem 0.3rem #e78800, 0.2rem 0.2rem #e78800, 0.1rem 0.1rem #e78800; }
@@ -106,7 +111,8 @@ h3 {
 .skills-boxes {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly; }
+  justify-content: space-evenly;
+  margin-top: 2rem; }
 
 .skills-box {
   align-items: center;
@@ -117,6 +123,21 @@ h3 {
   .skills-box img {
     height: auto;
     width: 11.5rem; }
+
+.videos {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem; }
+
+.clients-logos {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5rem; }
+  .clients-logos img {
+    width: 25%; }
 
 footer {
   font-size: 1rem;
