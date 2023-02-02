@@ -7,8 +7,13 @@ body {
 h1 {
   font-family: $font-header-primary;
   font-size: 7.6rem;
+  line-height: 1;
   font-weight: 900;
   text-transform: uppercase;
+
+  @include tablet-portrait {
+    font-size: 5.7rem;
+  }
 }
 
 h2 {
@@ -18,6 +23,10 @@ h2 {
   font-style: italic;
   font-weight: 700;
   margin-top: -1rem;
+
+  @include tablet-portrait {
+    margin-top: 1rem;
+  }
 }
 
 h3 {
@@ -26,4 +35,8 @@ h3 {
   font-weight: 700;
   margin-top: -2rem;
   text-transform: uppercase;
+
+  @include tablet-portrait {
+    font-size: 3.2rem;
+  }
 }

@@ -1,4 +1,5 @@
 @import "abstracts/variables";
+@import "abstracts/mixins";
 
 @import "base/base";
 @import "base/typography";
@@ -18,17 +19,41 @@
   &-content {
     align-items: center;
     display: flex;
+    gap: 3rem;
     justify-content: center;
+    padding: 5rem;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
+    width: 120rem;
+
+    @include tablet-landscape {
+      width: 90rem;
+    }
+
+    @include tablet-portrait {
+      flex-direction: column-reverse;
+
+      & img {
+        display: none;
+        // width: 30rem;
+      }
+    }
+
+    @include phone {
+      width: 34rem;
+    }
   }
 
   &-text {
     align-items: flex-start;
     display: flex;
     flex-direction: column;
-    margin-left: 3rem;
+
+    @include tablet-portrait {
+      align-items: center;
+      text-align: center;
+    }
 
     & .btn {
       margin-top: 4rem;
