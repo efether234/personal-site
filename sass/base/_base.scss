@@ -11,23 +11,30 @@ html {
 }
 
 body {
-  background-color: $color-bg;
+  background-color: $color-white;
   box-sizing: border-box;
 }
 
 section {
-  padding-top: 8rem;
+  padding-top: 2rem;
 
   &:last-of-type {
-    padding-bottom: 8rem;
+    padding-bottom: 2rem;
   }
 }
 
 .container {
-  background-color: $color-white;
-  border: 0.2rem solid $color-primary-dark;
-  border-radius: 1rem;
   margin: 0 auto;
   padding: 5rem;
   width: 84rem;
+}
+
+hr {
+  border: none;
+  border-top: 0.1rem solid $color-primary-dark;
+  margin-bottom: 3rem;
+}
+
+p {
+  margin-bottom: 2rem;
 }
