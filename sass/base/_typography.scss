@@ -1,0 +1,29 @@
+body {
+  color: $color-grey-dark;
+  font-family: $font-default;
+  font-size: 1.8rem;
+}
+
+h1 {
+  font-family: $font-header-primary;
+  font-size: 7.6rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+h2 {
+  color: $color-white;
+  font-family: $font-header-secondary;
+  font-size: 5.7rem;
+  font-style: italic;
+  font-weight: 700;
+  margin-top: -1rem;
+}
+
+h3 {
+  font-family: $font-header-secondary;
+  font-size: 5.7rem;
+  font-style: italic;
+  font-weight: 700;
+  margin-top: -2rem;
+}

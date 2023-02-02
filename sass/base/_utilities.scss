@@ -1,0 +1,31 @@
+.text-shadow-orange {
+  text-shadow: 0.8rem 0.8rem $color-primary-dark,
+    0.7rem 0.7rem $color-primary-dark, 0.6rem 0.6rem $color-primary-dark,
+    0.5rem 0.5rem $color-primary-dark, 0.4rem 0.4rem $color-primary-dark,
+    0.3rem 0.3rem $color-primary-dark, 0.2rem 0.2rem $color-primary-dark,
+    0.1rem 0.1rem $color-primary-dark;
+}
+
+.text-shadow-blue {
+  text-shadow: 0.8rem 0.8rem $color-secondary-dark,
+    0.7rem 0.7rem $color-secondary-dark, 0.6rem 0.6rem $color-secondary-dark,
+    0.5rem 0.5rem $color-secondary-dark, 0.4rem 0.4rem $color-secondary-dark,
+    0.3rem 0.3rem $color-secondary-dark, 0.2rem 0.2rem $color-secondary-dark,
+    0.1rem 0.1rem $color-secondary-dark;
+}
+
+.box-shadow-orange {
+  box-shadow: 0.8rem 0.8rem $color-primary-dark,
+    0.7rem 0.7rem $color-primary-dark, 0.6rem 0.6rem $color-primary-dark,
+    0.5rem 0.5rem $color-primary-dark, 0.4rem 0.4rem $color-primary-dark,
+    0.3rem 0.3rem $color-primary-dark, 0.2rem 0.2rem $color-primary-dark,
+    0.1rem 0.1rem $color-primary-dark;
+}
+
+.box-shadow-blue {
+  box-shadow: 0.8rem 0.8rem $color-secondary-dark,
+    0.7rem 0.7rem $color-secondary-dark, 0.6rem 0.6rem $color-secondary-dark,
+    0.5rem 0.5rem $color-secondary-dark, 0.4rem 0.4rem $color-secondary-dark,
+    0.3rem 0.3rem $color-secondary-dark, 0.2rem 0.2rem $color-secondary-dark,
+    0.1rem 0.1rem $color-secondary-dark;
+}

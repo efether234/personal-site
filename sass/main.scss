@@ -1,0 +1,69 @@
+@import "abstracts/variables";
+
+@import "base/base";
+@import "base/typography";
+@import "base/utilities";
+
+@import "components/button";
+
+.hero {
+  align-items: center;
+  color: $color-white;
+  background-color: $color-primary;
+  display: flex;
+  flex-direction: column;
+  height: 60rem;
+  position: relative;
+
+  &-content {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  &-text {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin-left: 3rem;
+
+    & .btn {
+      margin-top: 4rem;
+    }
+  }
+
+  & img {
+    border: 1rem solid $color-primary-dark;
+    border-radius: 50%;
+  }
+}
+
+.skills {
+  &-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  &-box {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-right: 2rem;
+    text-align: center;
+
+    & img {
+      height: auto;
+      width: 11.5rem;
+    }
+  }
+}
+
+footer {
+  font-size: 1rem;
+  padding: 2rem;
+  text-align: center;
+}

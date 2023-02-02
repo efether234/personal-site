@@ -1,0 +1,33 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: $color-bg;
+  box-sizing: border-box;
+}
+
+section {
+  padding-top: 8rem;
+
+  &:last-of-type {
+    padding-bottom: 8rem;
+  }
+}
+
+.container {
+  background-color: $color-white;
+  border: 0.2rem solid $color-primary-dark;
+  border-radius: 1rem;
+  margin: 0 auto;
+  padding: 5rem;
+  width: 84rem;
+}
