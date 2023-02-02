@@ -1,0 +1,17 @@
+@mixin tablet-landscape {
+  @media screen and (max-width: 1199px) {
+    @content;
+  }
+}
+
+@mixin tablet-portrait {
+  @media screen and (max-width: 899px) {
+    @content;
+  }
+}
+
+@mixin phone {
+  @media screen and (max-width: 499px) {
+    @content;
+  }
+}

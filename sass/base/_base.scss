@@ -8,6 +8,10 @@
 
 html {
   font-size: 62.5%;
+
+  @include tablet-portrait {
+    font-size: 56.5%;
+  }
 }
 
 body {
@@ -27,6 +31,16 @@ section {
   margin: 0 auto;
   padding: 5rem;
   width: 84rem;
+
+  @include tablet-portrait {
+    padding: 2.5rem;
+    width: 60rem;
+  }
+
+  @include phone {
+    padding: 1rem;
+    width: 34rem;
+  }
 }
 
 hr {
