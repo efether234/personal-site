@@ -1,24 +1,18 @@
 {
   "name": "personal-site",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "compile:sass": "node-sass sass/main.scss css/styles.css -w"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/efether234/personal-site.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/efether234/personal-site/issues"
-  },
-  "homepage": "https://github.com/efether234/personal-site#readme",
-  "devDependencies": {
-    "node-sass": "^8.0.0"
+  "dependencies": {
+    "@next/font": "13.2.0",
+    "bootstrap": "^5.2.3",
+    "next": "13.2.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
   }
 }
