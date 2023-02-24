@@ -13,6 +13,17 @@ html {
 body {
   color: #222;
   font-family: "Roboto", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 100;
+}
+
+/* Utilities */
+.bold {
+  font-weight: 500;
+}
+
+.main-header {
+  margin-bottom: 4rem;
 }
 
 .heading-primary {
@@ -20,4 +31,93 @@ body {
   font-size: 10rem;
   text-align: center;
   text-transform: uppercase;
+}
+
+.video-cards {
+  column-gap: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.video-card {
+  border: 1px solid #ddd;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.8rem;
+  padding: 1rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+.video-card-thumb {
+  height: auto;
+  overflow: hidden;
+  width: 100%;
+}
+
+.heading-video-card {
+  color: #222;
+  font-size: 2.4rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.card-link {
+  display: block;
+  margin-top: auto;
+}
+
+.content {
+  margin: 0 auto;
+  text-align: center;
+  width: 80rem;
+}
+
+.heading-secondary {
+  font-size: 3.2rem;
+  font-weight: 900;
+  text-align: center;
+}
+
+.content p {
+  margin-bottom: 4rem;
+}
+
+.job {
+  display: flex;
+  flex-direction: column;
+}
+
+.job-heading {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.job-title {
+  font-size: 3.2rem;
+  font-weight: 500;
+}
+
+.job-employer {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.25rem;
+  font-style: italic;
+  font-weight: 100;
+  text-align: right;
+}
+
+.job-description {
+  text-align: left;
+}
+
+footer {
+  padding: 5rem;
+}
+
+.copy-text {
+  font-size: 1rem;
+  text-align: center;
 }
