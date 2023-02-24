@@ -1,0 +1,23 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: #222;
+  font-family: "Roboto", sans-serif;
+}
+
+.heading-primary {
+  font-family: "Alfa Slab One", sans-serif;
+  font-size: 10rem;
+  text-align: center;
+  text-transform: uppercase;
+}
